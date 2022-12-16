@@ -1,0 +1,46 @@
+/* Flex Container => Parent*/
+ul{
+    background-color: lightslategray;
+    padding: 2rem;
+
+    /* Flex Container Properties*/
+    display: flex; 
+}
+
+/* Flex Items => Children*/
+li{
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    padding: 1rem;
+    margin: 2rem;
+    width: 10rem;
+}
+
+/*Parent*/
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/* Flex Items => Children*/
+section{
+    list-style: none;
+    color: white;
+    background-color: lightslategray;
+    padding: 1rem;
+    margin: 2rem;
+    width: 10rem;
+}
+
+/* section h2,
+section p{
+    background-color: #20b2aa;
+} */
+
+div.content{
+ background-color: #20b2aa;
+ padding: 1rem;
+}
