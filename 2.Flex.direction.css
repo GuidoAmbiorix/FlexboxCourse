@@ -1,0 +1,33 @@
+
+
+ul{
+    background-color: lightslategray;
+    padding: 2rem;
+
+    /*Flex Container Properties*/
+    display: flex;
+
+    /*-*-*-*-*-*-*-*-*-----(1)FLEX DIRECTION-----*-*-*-*-*-*-*/
+    /*1.1*/
+    /*Row(Default)*/
+    /* flex-direction: flex; */
+
+    /*1.2*/
+    /*Row Reverse(Default Reverse)*/
+    /* flex-direction: row-reverse; */
+  
+    /*1.3*/
+    /*Column*/
+    flex-direction: column;
+
+    
+}
+
+li{
+list-style: none;
+color: white;
+background-color: #20b2aa;
+margin: 2rem;
+padding: 1rem;
+width: 10rem;
+}
