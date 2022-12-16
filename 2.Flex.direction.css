@@ -2,7 +2,8 @@
 
 ul{
     background-color: lightslategray;
-    padding: 2rem;
+    padding: 0.5rem;
+    height: 30rem; /*added for flex flow of columns*/
 
     /*Flex Container Properties*/
     display: flex;
@@ -24,6 +25,7 @@ ul{
     /*Column Reverse*/
     /* flex-direction: column-reverse; */
 
+
     /*-*-*-*-*-*-*-*-*-----(2)FLEX WRAP-----*-*-*-*-*-*-*-*-*/
      /*2.1*/
     /*Nowrap(Default)*/
@@ -38,7 +40,23 @@ ul{
     /* flex-wrap: wrap-reverse; */
 
 
-    
+    /*-*-*-*-*-*-*-*-*-----(3)FLEX FLOW-----*-*-*-*-*-*-*-*-*/
+    /*3.1*/
+    /*Row(Direction) Wrap(Wrap)*/
+    /* flex-flow: row wrap; */
+
+    /*3.2*/
+    /*Column Wrap*/
+    /* flex-flow: column wrap; */
+
+    /*3.3*/
+    /*Row-reverse wrap*/
+    /* flex-flow: row-reverse wrap; */
+
+    /*3.4*/
+    /*Column-reverse wrap*/
+    /* flex-flow: column-reverse wrap; */
+
 }
 
 li{
@@ -49,4 +67,5 @@ margin: 2rem;
 padding: 1rem;
 width: 10rem;
 font-size: 1rem;
+text-align: center;
 }
